@@ -1,0 +1,35 @@
+#page1:-
+1.get location data(city data)
+    >http://localhost:4321/location
+2.get restro data
+    >http://localhost:4321/restro
+
+3.get restro wrt city
+  //  >http://localhost:4321/restro?state_id=3
+
+4.get city data(state id)
+    >
+5.to get meal type(quick search)
+    >http://localhost:4321/mealtype
+
+#page2:-
+1.restro wrt quicksearch:-
+
+
+*restront detail:-
+    >http://localhost:4321/detail/2
+*menue wrt restro:-
+    >http://localhost:4321/menu/5
+
+    http://localhost:4321/filter/1?lcost=300&hcost=400&cuisine=2
+
+    sort data:=
+    low to high:
+    http://localhost:4321/filter/1?sort=1
+
+    high to low:
+    http://localhost:4321/filter/1?sort=-1
+    
+    pegination:
+
+    http://localhost:4321/filter/1?skip=0&limit=5
